@@ -1,0 +1,596 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mayneline.myrecipesharingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:60:5-67
+11-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:60:22-64
+12    <uses-permission
+12-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:61:5-62:38
+13        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+13-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:61:22-78
+14        android:maxSdkVersion="32" />
+14-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:62:9-35
+15    <uses-permission
+15-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:63:5-64:38
+16        android:name="android.permission.READ_EXTERNAL_STORAGE"
+16-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:63:22-77
+17        android:maxSdkVersion="32" />
+17-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:64:9-35
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:65:5-65
+18-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:65:22-62
+19
+20    <uses-feature
+20-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:66:5-84
+21        android:name="android.hardware.camera"
+21-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:66:19-57
+22        android:required="true" />
+22-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:66:58-81
+23
+24    <queries>
+24-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:17:5-19:15
+25        <package android:name="com.facebook.katana" />
+25-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:18:9-55
+25-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:18:18-52
+26    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+27    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\mayne\.gradle\caches\transforms-3\db248a495663c1fc8a866713f59f7025\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:12:5-79
+28-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\mayne\.gradle\caches\transforms-3\db248a495663c1fc8a866713f59f7025\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:12:22-76
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\13244da7c3b2c18531e2fc76235d3b7e\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:24:5-68
+29-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\13244da7c3b2c18531e2fc76235d3b7e\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+30-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\13244da7c3b2c18531e2fc76235d3b7e\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
+30-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\13244da7c3b2c18531e2fc76235d3b7e\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+32
+33    <permission
+33-->[androidx.core:core:1.9.0] C:\Users\mayne\.gradle\caches\transforms-3\8c550508e912597ae777fac0c57cf82d\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+34        android:name="com.mayneline.myrecipesharingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.9.0] C:\Users\mayne\.gradle\caches\transforms-3\8c550508e912597ae777fac0c57cf82d\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.9.0] C:\Users\mayne\.gradle\caches\transforms-3\8c550508e912597ae777fac0c57cf82d\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.mayneline.myrecipesharingapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.9.0] C:\Users\mayne\.gradle\caches\transforms-3\8c550508e912597ae777fac0c57cf82d\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.9.0] C:\Users\mayne\.gradle\caches\transforms-3\8c550508e912597ae777fac0c57cf82d\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+38
+39    <application
+39-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:5:5-58:19
+40        android:name="com.mayneline.myrecipesharingapp.MyRecipeSharingApp"
+40-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:6:9-43
+41        android:allowBackup="true"
+41-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:7:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.9.0] C:\Users\mayne\.gradle\caches\transforms-3\8c550508e912597ae777fac0c57cf82d\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+43        android:dataExtractionRules="@xml/data_extraction_rules"
+43-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:8:9-65
+44        android:debuggable="true"
+45        android:extractNativeLibs="false"
+46        android:fullBackupContent="@xml/backup_rules"
+46-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:9:9-54
+47        android:icon="@drawable/chefs_hat_logo2"
+47-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:10:9-49
+48        android:label="@string/app_name"
+48-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:11:9-41
+49        android:roundIcon="@drawable/chefs_hat_logo2"
+49-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:12:9-54
+50        android:supportsRtl="true"
+50-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:13:9-35
+51        android:testOnly="true"
+52        android:theme="@style/Theme.MyRecipeSharingApp" >
+52-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:14:9-56
+53        <activity
+53-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:17:9-23:20
+54            android:name="com.mayneline.myrecipesharingapp.SignInActivity"
+54-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:17:19-49
+55            android:exported="true" >
+55-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:18:13-36
+56            <intent-filter>
+56-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:19:13-22:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:20:17-69
+57-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:20:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:21:17-77
+59-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:21:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity android:name="com.mayneline.myrecipesharingapp.BarcodeScannerActivity" />
+62-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:24:9-60
+62-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:24:19-57
+63        <activity android:name="com.mayneline.myrecipesharingapp.CreateRecipeActivity" />
+63-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:25:9-58
+63-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:25:19-55
+64        <activity android:name="com.mayneline.myrecipesharingapp.FavoritesActivity" />
+64-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:26:9-55
+64-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:26:19-52
+65        <activity android:name="com.mayneline.myrecipesharingapp.HomeActivity" />
+65-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:27:9-50
+65-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:27:19-47
+66        <activity android:name="com.mayneline.myrecipesharingapp.MainActivity" />
+66-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:28:9-50
+66-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:28:19-47
+67        <activity android:name="com.mayneline.myrecipesharingapp.MealPlanActivity" />
+67-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:29:9-54
+67-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:29:19-51
+68        <activity android:name="com.mayneline.myrecipesharingapp.MyRecipesActivity" />
+68-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:30:9-55
+68-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:30:19-52
+69        <activity android:name="com.mayneline.myrecipesharingapp.ProfileActivity" />
+69-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:31:9-53
+69-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:31:19-50
+70        <activity android:name="com.mayneline.myrecipesharingapp.RecipeActivity" />
+70-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:32:9-52
+70-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:32:19-49
+71        <activity android:name="com.mayneline.myrecipesharingapp.ReviewActivity" />
+71-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:33:9-52
+71-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:33:19-49
+72        <activity android:name="com.mayneline.myrecipesharingapp.SecondActivity" />
+72-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:34:9-52
+72-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:34:19-49
+73        <activity android:name="com.mayneline.myrecipesharingapp.RecipeDetailActivity" />
+73-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:35:9-57
+73-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:35:19-55
+74        <activity
+74-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:36:9-39:20
+75            android:name="com.mayneline.myrecipesharingapp.AddFavoriteActivity"
+75-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:37:13-48
+76            android:label="Add Favorite" >
+76-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:38:13-41
+77        </activity>
+78
+79        <provider
+79-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:41:9-44:40
+80            android:name="com.mayneline.myrecipesharingapp.YourFavoritesContentProvider"
+80-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:42:13-89
+81            android:authorities="com.mayneline.myrecipesharingapp.favorites-provider"
+81-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:43:13-86
+82            android:exported="false" />
+82-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:44:13-37
+83
+84        <!-- Other activities, services, receivers, and providers go here -->
+85
+86        <meta-data
+86-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:49:9-51:64
+87            android:name="com.facebook.sdk.ClientToken"
+87-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:50:13-56
+88            android:value="4d2626d5b9472a24b46415e5188b97fa" />
+88-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:51:13-61
+89        <meta-data
+89-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:54:9-56:55
+90            android:name="com.facebook.sdk.ApplicationId"
+90-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:55:13-58
+91            android:value="@string/facebook_app_id" />
+91-->C:\Users\mayne\AndroidStudioProjects\MyRecipeSharingApp4\app\src\main\AndroidManifest.xml:56:13-52
+92
+93        <service
+93-->[androidx.camera:camera-camera2:1.3.0-alpha06] C:\Users\mayne\.gradle\caches\transforms-3\87b1cf3bb946450dcd526247a40a110f\transformed\camera-camera2-1.3.0-alpha06\AndroidManifest.xml:24:9-33:19
+94            android:name="androidx.camera.core.impl.MetadataHolderService"
+94-->[androidx.camera:camera-camera2:1.3.0-alpha06] C:\Users\mayne\.gradle\caches\transforms-3\87b1cf3bb946450dcd526247a40a110f\transformed\camera-camera2-1.3.0-alpha06\AndroidManifest.xml:25:13-75
+95            android:enabled="false"
+95-->[androidx.camera:camera-camera2:1.3.0-alpha06] C:\Users\mayne\.gradle\caches\transforms-3\87b1cf3bb946450dcd526247a40a110f\transformed\camera-camera2-1.3.0-alpha06\AndroidManifest.xml:26:13-36
+96            android:exported="false" >
+96-->[androidx.camera:camera-camera2:1.3.0-alpha06] C:\Users\mayne\.gradle\caches\transforms-3\87b1cf3bb946450dcd526247a40a110f\transformed\camera-camera2-1.3.0-alpha06\AndroidManifest.xml:27:13-37
+97            <meta-data
+97-->[androidx.camera:camera-camera2:1.3.0-alpha06] C:\Users\mayne\.gradle\caches\transforms-3\87b1cf3bb946450dcd526247a40a110f\transformed\camera-camera2-1.3.0-alpha06\AndroidManifest.xml:30:13-32:89
+98                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+98-->[androidx.camera:camera-camera2:1.3.0-alpha06] C:\Users\mayne\.gradle\caches\transforms-3\87b1cf3bb946450dcd526247a40a110f\transformed\camera-camera2-1.3.0-alpha06\AndroidManifest.xml:31:17-103
+99                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+99-->[androidx.camera:camera-camera2:1.3.0-alpha06] C:\Users\mayne\.gradle\caches\transforms-3\87b1cf3bb946450dcd526247a40a110f\transformed\camera-camera2-1.3.0-alpha06\AndroidManifest.xml:32:17-86
+100        </service>
+101
+102        <activity
+102-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:22:9-25:66
+103            android:name="com.facebook.FacebookActivity"
+103-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:23:13-57
+104            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+104-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:24:13-96
+105            android:theme="@style/com_facebook_activity_theme" />
+105-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:25:13-63
+106        <activity android:name="com.facebook.CustomTabMainActivity" />
+106-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:26:9-71
+106-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:26:19-68
+107        <activity
+107-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:27:9-41:20
+108            android:name="com.facebook.CustomTabActivity"
+108-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:28:13-58
+109            android:exported="true" >
+109-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:29:13-36
+110            <intent-filter>
+110-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:31:13-40:29
+111                <action android:name="android.intent.action.VIEW" />
+111-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:32:17-69
+111-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:32:25-66
+112
+113                <category android:name="android.intent.category.DEFAULT" />
+113-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:34:17-76
+113-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:34:27-73
+114                <category android:name="android.intent.category.BROWSABLE" />
+114-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:35:17-78
+114-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:35:27-75
+115
+116                <data
+116-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:37:17-39:50
+117                    android:host="cct.com.mayneline.myrecipesharingapp"
+117-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:38:21-56
+118                    android:scheme="fbconnect" />
+118-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:39:21-47
+119            </intent-filter>
+120        </activity>
+121
+122        <service
+122-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\mayne\.gradle\caches\transforms-3\db248a495663c1fc8a866713f59f7025\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:16:9-22:19
+123            android:name="com.google.firebase.components.ComponentDiscoveryService"
+123-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\mayne\.gradle\caches\transforms-3\db248a495663c1fc8a866713f59f7025\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:17:13-84
+124            android:directBootAware="true"
+124-->[com.google.firebase:firebase-common:20.3.2] C:\Users\mayne\.gradle\caches\transforms-3\4ec13fa3a0a1de439c5790ee0f70f7a8\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+125            android:exported="false" >
+125-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\mayne\.gradle\caches\transforms-3\db248a495663c1fc8a866713f59f7025\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:18:13-37
+126            <meta-data
+126-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\mayne\.gradle\caches\transforms-3\db248a495663c1fc8a866713f59f7025\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
+127                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+127-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\mayne\.gradle\caches\transforms-3\db248a495663c1fc8a866713f59f7025\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:20:17-111
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\mayne\.gradle\caches\transforms-3\db248a495663c1fc8a866713f59f7025\transformed\firebase-firestore-24.6.0\AndroidManifest.xml:21:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-database:20.2.1] C:\Users\mayne\.gradle\caches\transforms-3\de6d5caed62a6e48cd8fc6b1342a4c49\transformed\firebase-database-20.2.1\AndroidManifest.xml:31:13-33:85
+130                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+130-->[com.google.firebase:firebase-database:20.2.1] C:\Users\mayne\.gradle\caches\transforms-3\de6d5caed62a6e48cd8fc6b1342a4c49\transformed\firebase-database-20.2.1\AndroidManifest.xml:32:17-109
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-database:20.2.1] C:\Users\mayne\.gradle\caches\transforms-3\de6d5caed62a6e48cd8fc6b1342a4c49\transformed\firebase-database-20.2.1\AndroidManifest.xml:33:17-82
+132            <meta-data
+132-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\mayne\.gradle\caches\transforms-3\129d2eb31879d53c744e4769fc807577\transformed\firebase-storage-20.2.0\AndroidManifest.xml:32:13-34:85
+133                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+133-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\mayne\.gradle\caches\transforms-3\129d2eb31879d53c744e4769fc807577\transformed\firebase-storage-20.2.0\AndroidManifest.xml:33:17-107
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-storage:20.2.0] C:\Users\mayne\.gradle\caches\transforms-3\129d2eb31879d53c744e4769fc807577\transformed\firebase-storage-20.2.0\AndroidManifest.xml:34:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+136                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+136-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-crashlytics:18.3.7] C:\Users\mayne\.gradle\caches\transforms-3\56ec39ce0e4a6d3bff0346f14de80078\transformed\firebase-crashlytics-18.3.7\AndroidManifest.xml:17:13-19:85
+139                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+139-->[com.google.firebase:firebase-crashlytics:18.3.7] C:\Users\mayne\.gradle\caches\transforms-3\56ec39ce0e4a6d3bff0346f14de80078\transformed\firebase-crashlytics-18.3.7\AndroidManifest.xml:18:17-115
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-crashlytics:18.3.7] C:\Users\mayne\.gradle\caches\transforms-3\56ec39ce0e4a6d3bff0346f14de80078\transformed\firebase-crashlytics-18.3.7\AndroidManifest.xml:19:17-82
+141            <meta-data
+141-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\13244da7c3b2c18531e2fc76235d3b7e\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+142                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+142-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\13244da7c3b2c18531e2fc76235d3b7e\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\13244da7c3b2c18531e2fc76235d3b7e\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\mayne\.gradle\caches\transforms-3\26cdf9ae943eb3d2ffec43765fa55dae\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+145                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+145-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\mayne\.gradle\caches\transforms-3\26cdf9ae943eb3d2ffec43765fa55dae\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\mayne\.gradle\caches\transforms-3\26cdf9ae943eb3d2ffec43765fa55dae\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+147        </service>
+148
+149        <activity
+149-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+150            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+150-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+151            android:excludeFromRecents="true"
+151-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+152            android:exported="true"
+152-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+153            android:launchMode="singleTask"
+153-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+154-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+155            <intent-filter>
+155-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+156                <action android:name="android.intent.action.VIEW" />
+156-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:32:17-69
+156-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:32:25-66
+157
+158                <category android:name="android.intent.category.DEFAULT" />
+158-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:34:17-76
+158-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:34:27-73
+159                <category android:name="android.intent.category.BROWSABLE" />
+159-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:35:17-78
+159-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:35:27-75
+160
+161                <data
+161-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:37:17-39:50
+162                    android:host="firebase.auth"
+162-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:38:21-56
+163                    android:path="/"
+164                    android:scheme="genericidp" />
+164-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:39:21-47
+165            </intent-filter>
+166        </activity>
+167        <activity
+167-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+168            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+168-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+169            android:excludeFromRecents="true"
+169-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+170            android:exported="true"
+170-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+171            android:launchMode="singleTask"
+171-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+172-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+173            <intent-filter>
+173-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\mayne\.gradle\caches\transforms-3\90a82d9b78027ccbeac4dda048ee8331\transformed\firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+174                <action android:name="android.intent.action.VIEW" />
+174-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:32:17-69
+174-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:32:25-66
+175
+176                <category android:name="android.intent.category.DEFAULT" />
+176-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:34:17-76
+176-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:34:27-73
+177                <category android:name="android.intent.category.BROWSABLE" />
+177-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:35:17-78
+177-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:35:27-75
+178
+179                <data
+179-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:37:17-39:50
+180                    android:host="firebase.auth"
+180-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:38:21-56
+181                    android:path="/"
+182                    android:scheme="recaptcha" />
+182-->[com.facebook.android:facebook-common:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\d0667a5c31021545bd25f80bcf2be0e2\transformed\facebook-common-16.0.1\AndroidManifest.xml:39:21-47
+183            </intent-filter>
+184        </activity>
+185
+186        <service
+186-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\mayne\.gradle\caches\transforms-3\c244e8d684ec771f4e80a1f1af367fdd\transformed\play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:9:9-15:19
+187            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+187-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\mayne\.gradle\caches\transforms-3\c244e8d684ec771f4e80a1f1af367fdd\transformed\play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:10:13-91
+188            android:directBootAware="true"
+188-->[com.google.mlkit:common:18.7.0] C:\Users\mayne\.gradle\caches\transforms-3\264265e8854f1e84ccbf22318a7c25a2\transformed\common-18.7.0\AndroidManifest.xml:17:13-43
+189            android:exported="false" >
+189-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\mayne\.gradle\caches\transforms-3\c244e8d684ec771f4e80a1f1af367fdd\transformed\play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:11:13-37
+190            <meta-data
+190-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\mayne\.gradle\caches\transforms-3\c244e8d684ec771f4e80a1f1af367fdd\transformed\play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:12:13-14:85
+191                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+191-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\mayne\.gradle\caches\transforms-3\c244e8d684ec771f4e80a1f1af367fdd\transformed\play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:13:17-120
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.2.0] C:\Users\mayne\.gradle\caches\transforms-3\c244e8d684ec771f4e80a1f1af367fdd\transformed\play-services-mlkit-barcode-scanning-18.2.0\AndroidManifest.xml:14:17-82
+193            <meta-data
+193-->[com.google.mlkit:vision-common:17.3.0] C:\Users\mayne\.gradle\caches\transforms-3\5714e55ee9f1ff57dc952e05da6ae29e\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+194                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+194-->[com.google.mlkit:vision-common:17.3.0] C:\Users\mayne\.gradle\caches\transforms-3\5714e55ee9f1ff57dc952e05da6ae29e\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.mlkit:vision-common:17.3.0] C:\Users\mayne\.gradle\caches\transforms-3\5714e55ee9f1ff57dc952e05da6ae29e\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+196            <meta-data
+196-->[com.google.mlkit:common:18.7.0] C:\Users\mayne\.gradle\caches\transforms-3\264265e8854f1e84ccbf22318a7c25a2\transformed\common-18.7.0\AndroidManifest.xml:20:13-22:85
+197                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+197-->[com.google.mlkit:common:18.7.0] C:\Users\mayne\.gradle\caches\transforms-3\264265e8854f1e84ccbf22318a7c25a2\transformed\common-18.7.0\AndroidManifest.xml:21:17-120
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.mlkit:common:18.7.0] C:\Users\mayne\.gradle\caches\transforms-3\264265e8854f1e84ccbf22318a7c25a2\transformed\common-18.7.0\AndroidManifest.xml:22:17-82
+199        </service>
+200
+201        <activity
+201-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\mayne\.gradle\caches\transforms-3\cc58e256da398b2af7e9802f0ddb709b\transformed\play-services-auth-20.5.0\AndroidManifest.xml:23:9-27:75
+202            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+202-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\mayne\.gradle\caches\transforms-3\cc58e256da398b2af7e9802f0ddb709b\transformed\play-services-auth-20.5.0\AndroidManifest.xml:24:13-93
+203            android:excludeFromRecents="true"
+203-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\mayne\.gradle\caches\transforms-3\cc58e256da398b2af7e9802f0ddb709b\transformed\play-services-auth-20.5.0\AndroidManifest.xml:25:13-46
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\mayne\.gradle\caches\transforms-3\cc58e256da398b2af7e9802f0ddb709b\transformed\play-services-auth-20.5.0\AndroidManifest.xml:26:13-37
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+205-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\mayne\.gradle\caches\transforms-3\cc58e256da398b2af7e9802f0ddb709b\transformed\play-services-auth-20.5.0\AndroidManifest.xml:27:13-72
+206        <!--
+207            Service handling Google Sign-In user revocation. For apps that do not integrate with
+208            Google Sign-In, this service will never be started.
+209        -->
+210        <service
+210-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\mayne\.gradle\caches\transforms-3\cc58e256da398b2af7e9802f0ddb709b\transformed\play-services-auth-20.5.0\AndroidManifest.xml:33:9-37:51
+211            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+211-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\mayne\.gradle\caches\transforms-3\cc58e256da398b2af7e9802f0ddb709b\transformed\play-services-auth-20.5.0\AndroidManifest.xml:34:13-89
+212            android:exported="true"
+212-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\mayne\.gradle\caches\transforms-3\cc58e256da398b2af7e9802f0ddb709b\transformed\play-services-auth-20.5.0\AndroidManifest.xml:35:13-36
+213            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+213-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\mayne\.gradle\caches\transforms-3\cc58e256da398b2af7e9802f0ddb709b\transformed\play-services-auth-20.5.0\AndroidManifest.xml:36:13-107
+214            android:visibleToInstantApps="true" />
+214-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\mayne\.gradle\caches\transforms-3\cc58e256da398b2af7e9802f0ddb709b\transformed\play-services-auth-20.5.0\AndroidManifest.xml:37:13-48
+215
+216        <provider
+216-->[com.google.mlkit:common:18.7.0] C:\Users\mayne\.gradle\caches\transforms-3\264265e8854f1e84ccbf22318a7c25a2\transformed\common-18.7.0\AndroidManifest.xml:9:9-13:38
+217            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+217-->[com.google.mlkit:common:18.7.0] C:\Users\mayne\.gradle\caches\transforms-3\264265e8854f1e84ccbf22318a7c25a2\transformed\common-18.7.0\AndroidManifest.xml:10:13-78
+218            android:authorities="com.mayneline.myrecipesharingapp.mlkitinitprovider"
+218-->[com.google.mlkit:common:18.7.0] C:\Users\mayne\.gradle\caches\transforms-3\264265e8854f1e84ccbf22318a7c25a2\transformed\common-18.7.0\AndroidManifest.xml:11:13-69
+219            android:exported="false"
+219-->[com.google.mlkit:common:18.7.0] C:\Users\mayne\.gradle\caches\transforms-3\264265e8854f1e84ccbf22318a7c25a2\transformed\common-18.7.0\AndroidManifest.xml:12:13-37
+220            android:initOrder="99" />
+220-->[com.google.mlkit:common:18.7.0] C:\Users\mayne\.gradle\caches\transforms-3\264265e8854f1e84ccbf22318a7c25a2\transformed\common-18.7.0\AndroidManifest.xml:13:13-35
+221
+222        <activity
+222-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\mayne\.gradle\caches\transforms-3\a5af15aa1e306f9f258a1b56def5ae56\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+223            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+223-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\mayne\.gradle\caches\transforms-3\a5af15aa1e306f9f258a1b56def5ae56\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+224            android:exported="false"
+224-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\mayne\.gradle\caches\transforms-3\a5af15aa1e306f9f258a1b56def5ae56\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+225            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+225-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\mayne\.gradle\caches\transforms-3\a5af15aa1e306f9f258a1b56def5ae56\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+226
+227        <provider
+227-->[com.google.firebase:firebase-common:20.3.2] C:\Users\mayne\.gradle\caches\transforms-3\4ec13fa3a0a1de439c5790ee0f70f7a8\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+228            android:name="com.google.firebase.provider.FirebaseInitProvider"
+228-->[com.google.firebase:firebase-common:20.3.2] C:\Users\mayne\.gradle\caches\transforms-3\4ec13fa3a0a1de439c5790ee0f70f7a8\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+229            android:authorities="com.mayneline.myrecipesharingapp.firebaseinitprovider"
+229-->[com.google.firebase:firebase-common:20.3.2] C:\Users\mayne\.gradle\caches\transforms-3\4ec13fa3a0a1de439c5790ee0f70f7a8\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+230            android:directBootAware="true"
+230-->[com.google.firebase:firebase-common:20.3.2] C:\Users\mayne\.gradle\caches\transforms-3\4ec13fa3a0a1de439c5790ee0f70f7a8\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+231            android:exported="false"
+231-->[com.google.firebase:firebase-common:20.3.2] C:\Users\mayne\.gradle\caches\transforms-3\4ec13fa3a0a1de439c5790ee0f70f7a8\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+232            android:initOrder="100" />
+232-->[com.google.firebase:firebase-common:20.3.2] C:\Users\mayne\.gradle\caches\transforms-3\4ec13fa3a0a1de439c5790ee0f70f7a8\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+233        <!--
+234         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+235         with the application context. This config is merged in with the host app's manifest,
+236         but there can only be one provider with the same authority activated at any given
+237         point; so if the end user has two or more different apps that use Facebook SDK, only the
+238         first one will be able to use the provider. To work around this problem, we use the
+239         following placeholder in the authority to identify each host application as if it was
+240         a completely different provider.
+241        -->
+242        <provider
+242-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:29:9-32:40
+243            android:name="com.facebook.internal.FacebookInitProvider"
+243-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:30:13-70
+244            android:authorities="com.mayneline.myrecipesharingapp.FacebookInitProvider"
+244-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:31:13-72
+245            android:exported="false" />
+245-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:32:13-37
+246
+247        <receiver
+247-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:34:9-40:20
+248            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+248-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:35:13-86
+249            android:exported="false" >
+249-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:36:13-37
+250            <intent-filter>
+250-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:37:13-39:29
+251                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+251-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:38:17-95
+251-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:38:25-92
+252            </intent-filter>
+253        </receiver>
+254        <receiver
+254-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:41:9-47:20
+255            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+255-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:42:13-118
+256            android:exported="false" >
+256-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:43:13-37
+257            <intent-filter>
+257-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:44:13-46:29
+258                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+258-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:45:17-103
+258-->[com.facebook.android:facebook-core:16.0.1] C:\Users\mayne\.gradle\caches\transforms-3\84469c38b520c5b7ea1b3988791a1a35\transformed\facebook-core-16.0.1\AndroidManifest.xml:45:25-100
+259            </intent-filter>
+260        </receiver>
+261        <receiver
+261-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+262            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+262-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+263            android:enabled="true"
+263-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+264            android:exported="false" >
+264-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+265        </receiver>
+266
+267        <service
+267-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+268            android:name="com.google.android.gms.measurement.AppMeasurementService"
+268-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+269            android:enabled="true"
+269-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+270            android:exported="false" />
+270-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+271        <service
+271-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+272            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+272-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+273            android:enabled="true"
+273-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+274            android:exported="false"
+274-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+275            android:permission="android.permission.BIND_JOB_SERVICE" />
+275-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\mayne\.gradle\caches\transforms-3\e966f289db9a9fef43c1473d438f9a21\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+276
+277        <uses-library
+277-->[androidx.window:window:1.0.0] C:\Users\mayne\.gradle\caches\transforms-3\283adb218dcda151b91291f87a51d981\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+278            android:name="androidx.window.extensions"
+278-->[androidx.window:window:1.0.0] C:\Users\mayne\.gradle\caches\transforms-3\283adb218dcda151b91291f87a51d981\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+279            android:required="false" />
+279-->[androidx.window:window:1.0.0] C:\Users\mayne\.gradle\caches\transforms-3\283adb218dcda151b91291f87a51d981\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+280        <uses-library
+280-->[androidx.window:window:1.0.0] C:\Users\mayne\.gradle\caches\transforms-3\283adb218dcda151b91291f87a51d981\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+281            android:name="androidx.window.sidecar"
+281-->[androidx.window:window:1.0.0] C:\Users\mayne\.gradle\caches\transforms-3\283adb218dcda151b91291f87a51d981\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+282            android:required="false" />
+282-->[androidx.window:window:1.0.0] C:\Users\mayne\.gradle\caches\transforms-3\283adb218dcda151b91291f87a51d981\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+283
+284        <meta-data
+284-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\mayne\.gradle\caches\transforms-3\dce1bd9c96cbd28c641227ebfd4c2bea\transformed\play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+285            android:name="com.google.android.gms.version"
+285-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\mayne\.gradle\caches\transforms-3\dce1bd9c96cbd28c641227ebfd4c2bea\transformed\play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+286            android:value="@integer/google_play_services_version" />
+286-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\mayne\.gradle\caches\transforms-3\dce1bd9c96cbd28c641227ebfd4c2bea\transformed\play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+287
+288        <provider
+288-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayne\.gradle\caches\transforms-3\4cb1dc905d2bb5c9bbf8d312370a8c5c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+289            android:name="androidx.startup.InitializationProvider"
+289-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayne\.gradle\caches\transforms-3\4cb1dc905d2bb5c9bbf8d312370a8c5c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+290            android:authorities="com.mayneline.myrecipesharingapp.androidx-startup"
+290-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayne\.gradle\caches\transforms-3\4cb1dc905d2bb5c9bbf8d312370a8c5c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+291            android:exported="false" >
+291-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayne\.gradle\caches\transforms-3\4cb1dc905d2bb5c9bbf8d312370a8c5c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+292            <meta-data
+292-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayne\.gradle\caches\transforms-3\4cb1dc905d2bb5c9bbf8d312370a8c5c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+293                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+293-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayne\.gradle\caches\transforms-3\4cb1dc905d2bb5c9bbf8d312370a8c5c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+294                android:value="androidx.startup" />
+294-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayne\.gradle\caches\transforms-3\4cb1dc905d2bb5c9bbf8d312370a8c5c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+295            <meta-data
+295-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mayne\.gradle\caches\transforms-3\d9ced605df24a86871fc22b1603cb8f7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+296                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+296-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mayne\.gradle\caches\transforms-3\d9ced605df24a86871fc22b1603cb8f7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+297                android:value="androidx.startup" />
+297-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mayne\.gradle\caches\transforms-3\d9ced605df24a86871fc22b1603cb8f7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+298        </provider>
+299
+300        <service
+300-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\3e2568a6cd518747b9925f106b835d11\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+301            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+301-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\3e2568a6cd518747b9925f106b835d11\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+302            android:exported="false" >
+302-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\3e2568a6cd518747b9925f106b835d11\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+303            <meta-data
+303-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\3e2568a6cd518747b9925f106b835d11\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+304                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+304-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\3e2568a6cd518747b9925f106b835d11\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+305                android:value="cct" />
+305-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\3e2568a6cd518747b9925f106b835d11\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+306        </service>
+307        <service
+307-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\214df5552d85468e1fd5a4d3a92cfe80\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+308            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+308-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\214df5552d85468e1fd5a4d3a92cfe80\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+309            android:exported="false"
+309-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\214df5552d85468e1fd5a4d3a92cfe80\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+310            android:permission="android.permission.BIND_JOB_SERVICE" >
+310-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\214df5552d85468e1fd5a4d3a92cfe80\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+311        </service>
+312
+313        <receiver
+313-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\214df5552d85468e1fd5a4d3a92cfe80\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+314            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+314-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\214df5552d85468e1fd5a4d3a92cfe80\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+315            android:exported="false" />
+315-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\mayne\.gradle\caches\transforms-3\214df5552d85468e1fd5a4d3a92cfe80\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+316
+317        <service
+317-->[androidx.room:room-runtime:2.5.1] C:\Users\mayne\.gradle\caches\transforms-3\6a0df55084dcc463eec0a9bba4d83e69\transformed\room-runtime-2.5.1\AndroidManifest.xml:24:9-28:63
+318            android:name="androidx.room.MultiInstanceInvalidationService"
+318-->[androidx.room:room-runtime:2.5.1] C:\Users\mayne\.gradle\caches\transforms-3\6a0df55084dcc463eec0a9bba4d83e69\transformed\room-runtime-2.5.1\AndroidManifest.xml:25:13-74
+319            android:directBootAware="true"
+319-->[androidx.room:room-runtime:2.5.1] C:\Users\mayne\.gradle\caches\transforms-3\6a0df55084dcc463eec0a9bba4d83e69\transformed\room-runtime-2.5.1\AndroidManifest.xml:26:13-43
+320            android:exported="false" />
+320-->[androidx.room:room-runtime:2.5.1] C:\Users\mayne\.gradle\caches\transforms-3\6a0df55084dcc463eec0a9bba4d83e69\transformed\room-runtime-2.5.1\AndroidManifest.xml:27:13-37
+321    </application>
+322
+323</manifest>

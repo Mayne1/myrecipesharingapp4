@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/navigation_create_recipe"
+                android:title="Create Recipe"/>
+            <item
+                android:id="@+id/navigation_recipe_detail"
+                android:title="Recipe Detail" />
+
+            <item
+                android:id="@+id/navigation_meal_plan"
+                android:title="Meal Plan" />
+
+
+            <item
+                android:id="@+id/navigation_add_favorite"
+                android:title="Add Favorite" />
+
+            <item
+                android:id="@+id/navigation_barcode_scanner"
+                android:title="Barcode Scanner" />
+
+            <item
+                android:id="@+id/navigation_review"
+                android:title="Review" />
+
+            <item
+                android:id="@+id/navigation_sign_in"
+                android:title="Sign in" />
+            <!-- More items... -->
+        </group>
+    </menu>

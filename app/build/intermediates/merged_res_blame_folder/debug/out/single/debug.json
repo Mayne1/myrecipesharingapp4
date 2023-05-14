@@ -1,0 +1,398 @@
+[
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_rounded_button_background.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/rounded_button_background.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/menu_drawer_menu.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_button_background.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_main.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_google_icon.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/google_icon.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_signin_dark_normal_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_signin_dark_normal_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_signin_light_disabled_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_signin_light_disabled_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/anim_slide_out_left.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_background_gradient.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/background_gradient.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_twitter_icon.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/twitter_icon.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_recipe_image_2.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/recipe_image_2.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_home.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_ic_favorite.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/ic_favorite.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_fancy_recipe_card_1.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/fancy_recipe_card_1.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_light_pressed_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_light_pressed_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_meal_plan.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_meal_plan.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_real_people_eaten_at_restaurant_from_all_over_the_worl_.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/real_people_eaten_at_restaurant_from_all_over_the_worl_.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_recipe_detail.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_recipe_detail.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_signin_dark_focus_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_signin_dark_focus_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_recipe_image_1.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/recipe_image_1.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_add_favorite.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_add_favorite.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_dark_disabled_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_dark_disabled_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_sign_in.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_favorites.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_favorites.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_recipe_item.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/recipe_item.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_light_focus_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_light_focus_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_real_beautifulreal_people_eaten_at_home_have_fun_enjoy_.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/real_beautifulreal_people_eaten_at_home_have_fun_enjoy_.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_create_recipe.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_create_recipe.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_empty_background.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/empty_background.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_real_beautifulreal_people_.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/real_beautifulreal_people_.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_signin_light_normal_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_signin_light_normal_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_nav_header_main.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_facebook_button_background.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/facebook_button_background.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_real_people_eaten_at_from_all_over_the_world_have_fun__.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/real_people_eaten_at_from_all_over_the_world_have_fun__.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_rounded_button.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_recipe_cards_with_effect_and_food_2.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/recipe_cards_with_effect_and_food_2.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_light_normal_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_light_normal_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_barcode_scanner.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_barcode_scanner.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_google_button_background.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/google_button_background.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_second.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_second.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/anim_slide_in_right.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_fancy_recipe_card_3.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/fancy_recipe_card_3.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_signin_light_focus_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_signin_light_focus_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_profile_place_holder.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/profile_place_holder.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_create_account.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/create_account.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_recipe_cards_with_effect_and_food_3.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/recipe_cards_with_effect_and_food_3.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/font_sans_regular.ttf.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/font/sans_regular.ttf"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_splash_screen.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/splash_screen.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_recipe_cards_with_effect_and_food_1.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/recipe_cards_with_effect_and_food_1.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_ic_share.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_chefs_hat_logo.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/chefs_hat_logo.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_dark_focus_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_dark_focus_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/anim_item_animation_fall_down.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/anim/item_animation_fall_down.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_app_bar_main.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/xml_backup_rules.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_recipe.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_recipe.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_meal_plan_item.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/meal_plan_item.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_my_recipes.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_my_recipes.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_light_disabled_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_light_disabled_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/menu_activity_main_drawer.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_dark_pressed_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_dark_pressed_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_dark_normal_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_dark_normal_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/font_sans_semi_bold.ttf.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/font/sans_semi_bold.ttf"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_facebook_icon.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/facebook_icon.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_ic_google.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_ic_add.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_empty_state_layout.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/empty_state_layout.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_rounded_edittext.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/rounded_edittext.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/font_dancing_script_variable_font_wght.ttf.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/font/dancing_script_variable_font_wght.ttf"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_chefs_hat_logo2.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/chefs_hat_logo2.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_fancy_recipe_card_2.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/fancy_recipe_card_2.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_profile.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_recipe_image_3.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/recipe_image_3.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_instagram_icon.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/instagram_icon.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout-land_meal_plan_item.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout-land/meal_plan_item.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_signin_dark_disabled_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_signin_dark_disabled_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/color_bottom_navigation_colors.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/color/bottom_navigation_colors.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_ic_menu.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/xml_data_extraction_rules.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_signin_light_pressed_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_signin_light_pressed_xxxhdpi.9.png"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/layout_activity_review.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/layout/activity_review.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_edit_text_background.xml.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "com.mayneline.myrecipesharingapp-merged_res-65:/drawable_btn_google_signin_dark_pressed_xxxhdpi.9.png.flat",
+        "source": "com.mayneline.myrecipesharingapp-main-67:/drawable/btn_google_signin_dark_pressed_xxxhdpi.9.png"
+    }
+]
